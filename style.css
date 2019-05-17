@@ -1,0 +1,62 @@
+
+.meme {
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.meme:hover .overlay{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #000000;
+
+}
+
+.overlayText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 240px;
+    color: #ffffff;
+}
+
+.meme img{
+    max-width: 25vw;
+    max-height: 25vw;
+}
+
+.memetext {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.top{
+    top: 10%;
+}
+
+.bottom {
+    bottom: 10%;
+}
+
+form input{
+    display: block;
+    margin-top: 1%;
+}
